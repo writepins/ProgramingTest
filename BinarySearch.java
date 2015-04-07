@@ -15,6 +15,7 @@ public class BinarySearch {
 		if(num.length < 1 || k < num[0] || k > num[num.length-1]) return;
 		if(num.length == 1 && num[0] != k) return;
 		System.out.println(binarySearch(num, 0, num.length-1, k));
+		
 	}
 	
 	//recursive solution
